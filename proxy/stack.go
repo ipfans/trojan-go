@@ -3,8 +3,8 @@ package proxy
 import (
 	"context"
 
-	"github.com/p4gefau1t/trojan-go/log"
-	"github.com/p4gefau1t/trojan-go/tunnel"
+	"github.com/ipfans/trojan-go/log"
+	"github.com/ipfans/trojan-go/tunnel"
 )
 
 type Node struct {

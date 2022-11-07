@@ -6,9 +6,9 @@ import (
 
 	"github.com/txthinking/socks5"
 
-	"github.com/p4gefau1t/trojan-go/common"
-	"github.com/p4gefau1t/trojan-go/log"
-	"github.com/p4gefau1t/trojan-go/tunnel"
+	"github.com/ipfans/trojan-go/common"
+	"github.com/ipfans/trojan-go/log"
+	"github.com/ipfans/trojan-go/tunnel"
 )
 
 const MaxPacketSize = 1024 * 8

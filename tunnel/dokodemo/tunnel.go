@@ -3,8 +3,8 @@ package dokodemo
 import (
 	"context"
 
-	"github.com/p4gefau1t/trojan-go/common"
-	"github.com/p4gefau1t/trojan-go/tunnel"
+	"github.com/ipfans/trojan-go/common"
+	"github.com/ipfans/trojan-go/tunnel"
 )
 
 const Name = "DOKODEMO"

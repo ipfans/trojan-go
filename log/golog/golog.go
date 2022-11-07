@@ -15,8 +15,8 @@ import (
 
 	terminal "golang.org/x/term"
 
-	"github.com/p4gefau1t/trojan-go/log"
-	"github.com/p4gefau1t/trojan-go/log/golog/colorful"
+	"github.com/ipfans/trojan-go/log"
+	"github.com/ipfans/trojan-go/log/golog/colorful"
 )
 
 func init() {

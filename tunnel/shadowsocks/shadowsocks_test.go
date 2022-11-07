@@ -9,11 +9,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/p4gefau1t/trojan-go/common"
-	"github.com/p4gefau1t/trojan-go/config"
-	"github.com/p4gefau1t/trojan-go/test/util"
-	"github.com/p4gefau1t/trojan-go/tunnel/freedom"
-	"github.com/p4gefau1t/trojan-go/tunnel/transport"
+	"github.com/ipfans/trojan-go/common"
+	"github.com/ipfans/trojan-go/config"
+	"github.com/ipfans/trojan-go/test/util"
+	"github.com/ipfans/trojan-go/tunnel/freedom"
+	"github.com/ipfans/trojan-go/tunnel/transport"
 )
 
 func TestShadowsocks(t *testing.T) {

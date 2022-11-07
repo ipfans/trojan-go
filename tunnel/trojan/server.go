@@ -7,16 +7,16 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/p4gefau1t/trojan-go/api"
-	"github.com/p4gefau1t/trojan-go/common"
-	"github.com/p4gefau1t/trojan-go/config"
-	"github.com/p4gefau1t/trojan-go/log"
-	"github.com/p4gefau1t/trojan-go/redirector"
-	"github.com/p4gefau1t/trojan-go/statistic"
-	"github.com/p4gefau1t/trojan-go/statistic/memory"
-	"github.com/p4gefau1t/trojan-go/statistic/mysql"
-	"github.com/p4gefau1t/trojan-go/tunnel"
-	"github.com/p4gefau1t/trojan-go/tunnel/mux"
+	"github.com/ipfans/trojan-go/api"
+	"github.com/ipfans/trojan-go/common"
+	"github.com/ipfans/trojan-go/config"
+	"github.com/ipfans/trojan-go/log"
+	"github.com/ipfans/trojan-go/redirector"
+	"github.com/ipfans/trojan-go/statistic"
+	"github.com/ipfans/trojan-go/statistic/memory"
+	"github.com/ipfans/trojan-go/statistic/mysql"
+	"github.com/ipfans/trojan-go/tunnel"
+	"github.com/ipfans/trojan-go/tunnel/mux"
 )
 
 // InboundConn is a trojan inbound connection

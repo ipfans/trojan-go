@@ -1,7 +1,7 @@
 package tls
 
 import (
-	"github.com/p4gefau1t/trojan-go/config"
+	"github.com/ipfans/trojan-go/config"
 )
 
 type Config struct {
@@ -41,7 +41,7 @@ func init() {
 			TLS: TLSConfig{
 				Verify:         true,
 				VerifyHostName: true,
-				Fingerprint:    "",
+				Fingerprint:    "chrome",
 				ALPN:           []string{"http/1.1"},
 			},
 		}

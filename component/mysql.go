@@ -4,5 +4,5 @@
 package build
 
 import (
-	_ "github.com/p4gefau1t/trojan-go/statistic/mysql"
+	_ "github.com/ipfans/trojan-go/statistic/mysql"
 )

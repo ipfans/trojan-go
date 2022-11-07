@@ -13,17 +13,17 @@ import (
 
 	netproxy "golang.org/x/net/proxy"
 
-	_ "github.com/p4gefau1t/trojan-go/api"
-	_ "github.com/p4gefau1t/trojan-go/api/service"
-	"github.com/p4gefau1t/trojan-go/common"
-	_ "github.com/p4gefau1t/trojan-go/log/golog"
-	"github.com/p4gefau1t/trojan-go/proxy"
-	_ "github.com/p4gefau1t/trojan-go/proxy/client"
-	_ "github.com/p4gefau1t/trojan-go/proxy/forward"
-	_ "github.com/p4gefau1t/trojan-go/proxy/nat"
-	_ "github.com/p4gefau1t/trojan-go/proxy/server"
-	_ "github.com/p4gefau1t/trojan-go/statistic/memory"
-	"github.com/p4gefau1t/trojan-go/test/util"
+	_ "github.com/ipfans/trojan-go/api"
+	_ "github.com/ipfans/trojan-go/api/service"
+	"github.com/ipfans/trojan-go/common"
+	_ "github.com/ipfans/trojan-go/log/golog"
+	"github.com/ipfans/trojan-go/proxy"
+	_ "github.com/ipfans/trojan-go/proxy/client"
+	_ "github.com/ipfans/trojan-go/proxy/forward"
+	_ "github.com/ipfans/trojan-go/proxy/nat"
+	_ "github.com/ipfans/trojan-go/proxy/server"
+	_ "github.com/ipfans/trojan-go/statistic/memory"
+	"github.com/ipfans/trojan-go/test/util"
 )
 
 // test key and cert

@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/net/websocket"
 
-	"github.com/p4gefau1t/trojan-go/common"
-	"github.com/p4gefau1t/trojan-go/config"
-	"github.com/p4gefau1t/trojan-go/log"
-	"github.com/p4gefau1t/trojan-go/tunnel"
+	"github.com/ipfans/trojan-go/common"
+	"github.com/ipfans/trojan-go/config"
+	"github.com/ipfans/trojan-go/log"
+	"github.com/ipfans/trojan-go/tunnel"
 )
 
 type Client struct {
